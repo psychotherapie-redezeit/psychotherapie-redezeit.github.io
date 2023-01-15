@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	font-size: 28px;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header {
+	background-color: #f1f1f1;
+	padding: 30px;
+	text-align: center;
+  }
+
+
+/* Sticky Navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: #dadadab8;
+  text-align: center;
+}
+
+#navbar a {
+  
+  display: inline-block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+#navbar a:hover {
+  background-color: #e7bae096;
+  color: #000000;
+}
+		/* Not Used */
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+/* End Sticky Navbar */
